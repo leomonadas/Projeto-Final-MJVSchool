@@ -1,11 +1,11 @@
 <nav>
-    <a>
+    <a [routerLink]="['']">
         <img src="../../../../assets/images/Insomnia Cafe-logos_transparent_edit 2.png" alt="">
     </a>
     <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Contato</li>
-        <li>Login</li>
+        <li [routerLink]="['']">Home</li>
+        <li (click)="navigateByUrl('about')">Sobre</li>
+        <li [routerLink]="['contact']">Contato</li>
+        <li (click)="navigateByUrl('login')">Login</li>
     </ul>
 </nav>

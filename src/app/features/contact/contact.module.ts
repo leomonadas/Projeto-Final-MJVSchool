@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { SharedModule } from './../../shared/shared.module';
 
 
 
 @NgModule({
   declarations: [
-    AboutComponent
+    ContactComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class ContactModule { }
