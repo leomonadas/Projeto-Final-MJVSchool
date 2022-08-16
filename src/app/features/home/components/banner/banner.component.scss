@@ -1,0 +1,35 @@
+.banner-principal{
+    background-image: url('../../../../../assets/images/cafe.gif');
+    position: sticky;
+    background-size: auto;
+    background-position-y: center;
+    background-position-x: -50%;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 40rem;
+    padding: 0;
+    margin: 0;
+
+    .background-transparency{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        width: 100vw;
+        height: 40rem;  
+        // margin: 0 auto;
+        // padding: 12% 10%;
+        // width: 300px;
+        // float: left;
+        .banner-text{
+            margin: 10rem 15rem;
+            width: 300px;
+            float: left;
+            h2{
+                font-size: 60px;
+                color: white;
+            }
+            p{
+                font-size: 16px;
+                color: white;
+            }
+        }
+    }
+}

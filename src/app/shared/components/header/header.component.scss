@@ -9,6 +9,9 @@ nav {
     a{
       text-decoration: none;
       color: white;
+      &:hover{
+        opacity: 50%;
+      }
       img{
         max-width: 150px;
       }

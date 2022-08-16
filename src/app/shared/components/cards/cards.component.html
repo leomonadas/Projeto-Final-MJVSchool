@@ -3,7 +3,7 @@
         <img src="{{ produto.imagem }}" alt="">
         <div class="card_text">
             <h3>{{ produto.nome }}</h3>
-            <h2 [ngClass]="{ 'produtoMenorQueCem': produto.preco < 100, 'produtoMaiorQueCem': produto.preco >= 100}">{{ produto.preco }}</h2>
+            <h2>{{ produto.preco | currency:"BRL" }}</h2>
         </div>
         <app-buttons></app-buttons>
     </div>

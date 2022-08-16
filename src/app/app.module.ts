@@ -1,3 +1,6 @@
+import { ContactModule } from './features/contact/contact.module';
+import { AboutModule } from './features/about/about.module';
+import { LoginModule } from './features/login/login.module';
 import { HomeModule } from './features/home/home.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +17,10 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     SharedModule,   
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    LoginModule,
+    AboutModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]
