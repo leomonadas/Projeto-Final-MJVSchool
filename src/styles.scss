@@ -9,3 +9,29 @@
 body{
     background-color: rgb(224, 224, 224);
 }
+
+.container{
+    max-width: 1366px;
+    margin: auto;
+    // sm: 768px,
+    // md: 992px,
+    // lg: 1366px,
+}
+
+@media (max-width: 991px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}

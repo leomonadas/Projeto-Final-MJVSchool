@@ -5,6 +5,6 @@
             <h3>{{ produto.nome }}</h3>
             <h2>{{ produto.preco | currency:"BRL" }}</h2>
         </div>
-        <app-buttons></app-buttons>
+        <app-buttons (click)="detalhesProduto(produto.id)"></app-buttons>
     </div>
 </div>

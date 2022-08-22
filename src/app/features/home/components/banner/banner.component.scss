@@ -6,29 +6,27 @@
     background-position-x: -50%;
     background-repeat: repeat;
     width: 100vw;
-    height: 40rem;
+    height: 36rem;
     padding: 0;
     margin: 0;
 
     .background-transparency{
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.005));
         width: 100vw;
-        height: 40rem;  
-        // margin: 0 auto;
-        // padding: 12% 10%;
-        // width: 300px;
-        // float: left;
+        height: 36rem;  
+      
         .banner-text{
-            margin: 10rem 15rem;
-            width: 300px;
+            margin: 10rem auto;
             float: left;
             h2{
                 font-size: 60px;
                 color: white;
+                width: 600px;
             }
             p{
                 font-size: 16px;
                 color: white;
+                width: 400px;
             }
         }
     }

@@ -1,0 +1,12 @@
+<app-header></app-header>
+<div ng-if="Product" class="product-page">
+    <div class="producto-detail">
+        <img src="{{ product?.imagem  }}" alt="">
+        <div class="product-text">
+            <h3>{{ product?.nome }}</h3>
+            <h2>{{ product?.preco | currency:"BRL" }}</h2>
+            <app-buttons></app-buttons>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

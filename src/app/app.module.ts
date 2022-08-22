@@ -7,6 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
+import { ProductDetailsModule } from './features/product-details/product-details.module';
 
 
 @NgModule({
@@ -20,9 +21,11 @@ import { SharedModule } from './shared/shared.module';
     HomeModule,
     LoginModule,
     AboutModule,
-    ContactModule
+    ContactModule,
+    ProductDetailsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
