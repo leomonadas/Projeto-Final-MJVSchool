@@ -1,5 +1,5 @@
 <div *ngFor="let produto of listaDeProdutos" class="wrap">
-    <div *ngIf="produto.preco<130" class="card">
+    <div *ngIf="produto.preco<20" class="card">
         <img src="{{ produto.imagem }}" alt="">
         <div class="card_text">
             <h3>{{ produto.nome }}</h3>
