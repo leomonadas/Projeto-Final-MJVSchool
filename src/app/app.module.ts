@@ -1,3 +1,4 @@
+import { PrivacyModule } from './features/privacy/privacy.module';
 import { ContactModule } from './features/contact/contact.module';
 import { AboutModule } from './features/about/about.module';
 import { LoginModule } from './features/login/login.module';
@@ -22,7 +23,8 @@ import { ProductDetailsModule } from './features/product-details/product-details
     LoginModule,
     AboutModule,
     ContactModule,
-    ProductDetailsModule
+    ProductDetailsModule,
+    PrivacyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
