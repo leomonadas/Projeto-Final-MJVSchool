@@ -1,0 +1,18 @@
+.about-content{
+    padding: 2rem 1rem;
+    h2{
+        margin: 2rem 0;
+        padding-left: 15px;
+        color: rgb(197, 97, 97);
+        font-size: 48px;
+    }
+    .box-content{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        img{
+            max-width: 40rem;
+        }
+    }
+}
+    
