@@ -1,4 +1,19 @@
 <app-header></app-header>
-<h1>Página de login</h1>
-<h2>Em construção</h2>
+<div class="container">
+    <h2>Página de login</h2>
+    <div class="login-container">
+        <h3></h3>
+        <form class="login-form">
+            <div class="form-field">
+                <input type="email" [(ngModel)]="email"  placeholder="Digite o seu e-mail: " name="email" required>
+            </div>
+            <div class="form-field">
+                <input type="password" [(ngModel)]="senha"  placeholder="Digite a senha: " name="password" required>
+            </div>
+        </form>
+        <button (click)="authenticate()" class="primary-button" type="button">
+            Entrar
+        </button>
+    </div>
+</div>
 <app-footer></app-footer>

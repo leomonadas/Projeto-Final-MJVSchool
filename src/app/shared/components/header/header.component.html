@@ -7,7 +7,8 @@
             <!-- <li [routerLink]="['']">Home</li> -->
             <li (click)="navigateByUrl('sobre')">Sobre</li>
             <!-- <li (click)="navigateByUrl('contato')">Contato</li> -->
-            <!-- <li (click)="navigateByUrl('login')">Login</li> -->
+            <li *ngIf="!user" (click)="navigateByUrl('login')">Login</li>
+            <li *ngIf="user" (click)="exit()">Sair</li>
         </ul>
     </div>
 </nav>

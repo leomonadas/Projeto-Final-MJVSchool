@@ -24,7 +24,7 @@ import { ProductDetailsModule } from './features/product-details/product-details
     AboutModule,
     ContactModule,
     ProductDetailsModule,
-    PrivacyModule
+    PrivacyModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
