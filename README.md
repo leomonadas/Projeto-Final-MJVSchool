@@ -7,14 +7,27 @@ A proposta foi deixar o site o mais *clean* possível, utilizando tons terrosos 
 
 <img src="src/assets/images/insomnia-cafe-print.jpeg" width="100%"/>
 
+Projeto composto pelas páginas Home, Sobre, Login, Página de detalhes do produto e Privacidade.
+
+## Utilização
+
+Para o login, pode-se usar qualquer uma das seguintes informações:
+
+      email: leo@gmail.com
+      senha: 123456
+    
+      email: kennedy@gmail.com
+      senha: 123456
+
 ## Feito Com:
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/pt-br/windows/get-windows-10)
-[![IDE](https://img.shields.io/badge/Visual_studio_code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![ANGULAR](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
 
 ## Status do projeto 🚀
-#### Em desenvolvimento.
+#### Finalizado (por hora!).
+
+# Resultado final
+:sparkles:[Confira o resultado final do site clicando aqui.](https://projeto-final-mjvs-chool.vercel.app/):sparkles:
 
 ## Autor
 
