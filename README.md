@@ -31,6 +31,3 @@ A proposta foi deixar o site o mais *clean* possível, utilizando tons terrosos 
   <a href = "mailto:leonardokennedyalvesdelima@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
 
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
